@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title>Home</title>
+        <!-- import file eksternal.css -->
+        <link rel="stylesheet" type="text/css" href="eksternal.css" />
+        <!-- tag meta untuk responsive -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- buat favicon -->
+<link rel="icon" type="image/png" sizes="64x64" href="ext/logo.png"/>
+
+    </head>
+    <body>
+        <!-- buat area header -->
+        <div class="header"></div>
+        <!-- buat area menu -->
+        <div class="navigation">
+            <button class="tombol" onclick="index()"><b>Home</b></button>
+            <button class="tombol" onclick="profil()"><b>Profil</b></button>
+            <button class="tombol" onclick="Pendidikan()"><b>Pendidikan</b></button>
+        </div>
+        
+        <script>
+            // fungsi untuk tombol dashboard
+            function Pendidikan() {
+                location.href = "Pendidikan.html";
+            }
+        </script>
+        
+        <!-- buat area content -->
+        <div class="content">
+            <!-- area content (side) -->
+            <div class="side">
+                
+                <!-- area logo -->
+                <div class="logo">
+                    <img src="ext/1.jpg" width="80%">
+                </div>
+                <!-- area text -->
+                <div class="text">
+                    <b>selamat datang di pembelajaran saya di mata kuliah desain web pada semester 3 yang dimana mata kuliah ini di ampu oleh bapak tio </b>
+                </div>
+                <!-- area garis -->
+                <div class="garis"></div>
+
+                <!-- area logo -->
+                <div class="logo">
+                    <img src="ext/2.jpg" width="80%">
+                </div>
+                <!-- area text -->
+                <div class="text">
+                    <b>sebelumnya apakah kalian tau saya berkuliah dimana, saya berkuliah di unviersitas teknokrat indonesia yang berada di bandar lampung</b>
+                </div>
+                <!-- area garis -->
+                <div class="garis"></div>
+
+                <!-- area logo -->
+                <div class="logo">
+                    <img src="ext/3.jpg" width="80%">
+                </div>
+                <!-- area text -->
+                <div class="text">
+                    <b>jika kalian membuka web ini saya ucapkan terima kasih banyak dan kurang lebihnya tugas saya ini saya memohon maaf yang sebesar besarnya</b>
+                </div>
+                <!-- area garis -->
+                <div class="garis"></div>
+
+
+                
+            </div>
+            <!-- area content (main) -->
+            <div class="main">
+                <p>Assalamualaikum Warahmatullahi Wabarakatuh</p>
+                <p>Bismillahirrahmanirrahim</p>
+                <p>Alhamdulillahi rabbil 'alamin, washolatu wassalamu 'ala asyrofil ambiyai walmursalin sayyidina Muhammadin wa 'ala alihi wa ashabihi waman tabi'ahum biihsanin ila yaumiddin amma ba'du</p>
+                <p>Pertama-tama marilah kita panjatkan puji serta syukur kepada Allah Subhanahu Wata’ala yang telah memberikan nikmat yang melimpah kepada kita semua. Sehingg saya dapat membuat web yang Insya Allah dimuliakannya ini. Tidak lupa, shalawat serta salam kepada Nabi Muhammad SAW beserta keluarga dan para sahabatnya. Semoga kita semua mendapatkan syafaat dan petunjuk di hari kiamat nanti. Alhamdulillahi rabbil alamin, atas izin Allah saya dapat mengerjakan tugas ini dengan tanpa halangan suatu apapun  </p>
+
+            </div>
+        </div>
+        <!-- buat area footer -->
+        <div class="footer">
+            Ig: voltxdharma
+        </div>
+
+        <!-- fungsi js -->
+        <script>
+            // fungsi untuk tombol home
+            function index()
+            {
+                //alihkan ke halaman home
+                location.href="index.html";
+            }
+            // fungsi ke halaman profil
+            function profil()
+            {                
+                // window.open("profil.html");
+                location.href="profil.html";
+            }
+            // fungsi ke halaman Pendidikan
+            function Pendidikan()
+            {                
+                // window.open("profil.html");
+                location.href="Pendidikan.html";
+            }
+        </script>
+    </body>
+</html>

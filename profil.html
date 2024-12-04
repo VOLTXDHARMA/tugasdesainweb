@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <title>Profil</title>
+        <!-- import file eksternal.css -->
+        <link rel="stylesheet" type="text/css" href="eksternal.css" />
+        <!-- tag meta untuk responsive -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- buat favicon -->
+		<link rel="icon" type="image/png" sizes="64x64" href="ext/logo.png"/>
+
+    </head>
+    <body>
+        <!-- buat area header -->
+        <header class="header"></header>
+        <!-- buat area menu -->
+        <div class="navigation">
+            <button class="tombol" onclick="home()"><b>Home</b></button>
+            <button class="tombol" onclick="profil()"><b>Profil</b></button>
+            <button class="tombol" onclick="Pendidikan()"><b>Pendidikan</b></button>
+        </div>
+        
+        <script>
+            // fungsi untuk tombol dashboard
+            function Pendidikan() {
+                location.href = "Pendidikan.html";
+            }
+        </script>
+        <!-- buat area content -->
+        <main class="content">
+            <!-- area content (side) -->
+            <aside class="side">
+                
+                <!-- area logo -->
+                <section class="logo">
+                	<figure>
+                    	<img src="ext/4.jpg" width="80%">
+                    	<figcaption></figcaption>
+                    </figure>
+                </section> 
+                <!-- area text -->
+                <section class="text">
+                    <b>
+                    <p>Nama: Dharma Mudita</p>
+                    <p>NPM: 23312067</p>
+                    <p>Kelas: Desain Web</p>
+                    </b>
+                </section>
+                
+                <!-- area garis -->
+                <section class="garis"></section>
+
+                <!-- area logo -->                
+                <section class="logo">
+                	<figure>
+                    	<img src="ext/5.jpg" width="80%">                    	
+                    </figure>
+                </section> 
+                <!-- area text -->
+                <section class="text">
+                    <b>
+                    <p>TTL: Way kanan, 09 02 2004</p>
+                    <p>Jenis Kelamin: Laki-Laki</p>
+                    <p>Alamat: Way kanan</p>
+                    </b>
+                </section>
+                <!-- area garis -->
+                <section class="garis"></section>
+
+                <!-- area logo -->                
+                <section class="logo">
+                	<figure>
+                    	<img src="ext/6.jpg" width="80%">
+                    	<figcaption></figcaption>
+                    </figure>
+                </section> 
+                <!-- area text -->
+                <section class="text">
+                    <b>
+                    <p>Hobi: Mendengarkan Musik</p>
+                    <p>Golongan Darah: O</p>
+                    <p>Kewarganegaraan: WNI</p>
+                    </b>
+                </section>
+                <!-- area garis -->
+                <section class="garis"></section>
+
+
+                
+            </aside>
+            <!-- area content (main) -->
+            <article class="main">
+                <p>Dharma Mudita seorang mahasiswa di jurusan Desain Web, merupakan sosok yang lahir pada tanggal 9 Februari 2004 di Way Kanan. Dengan NPM 23312067, Dharma sedang menempuh studi di dunia pendidikan tinggi, khususnya dalam bidang Desain Web, yang merupakan minat dan pilihannya. Sebagai seorang pria, Dharma memiliki dedikasi tinggi dalam setiap aktivitas yang dilakukannya, baik itu dalam kehidupan akademik maupun di luar lingkungan kampus. Dharma tumbuh besar di daerah Way Kanan, sebuah kawasan yang dikenal dengan keindahan alamnya. Meskipun berasal dari sebuah daerah yang tidak terlalu besar, Dharma memiliki semangat yang besar untuk berkembang dan meraih cita-cita. Sebagai seorang Warga Negara Indonesia (WNI), Dharma sangat menghargai nilai-nilai kebudayaan dan tradisi yang ada di sekitarnya, namun juga memiliki keinginan besar untuk mengeksplorasi dunia teknologi dan desain. Sejak kecil, Dharma sudah memiliki ketertarikan terhadap dunia seni dan kreativitas, yang akhirnya membawanya untuk memilih Desain Web sebagai bidang studi. Di dunia pendidikan, Dharma selalu berusaha untuk memberikan yang terbaik dalam setiap tugas dan proyek yang dihadapinya. Ia percaya bahwa dunia desain web memiliki potensi besar untuk menciptakan sesuatu yang inovatif dan bermanfaat bagi banyak orang. Selain aktif dalam dunia pendidikan, Dharma juga memiliki hobi mendengarkan musik. Musik menjadi salah satu cara baginya untuk bersantai dan menghilangkan stres setelah menjalani aktivitas yang padat. Musik menjadi sumber inspirasi dan juga teman setia dalam proses kreatifnya. Dengan mendengarkan musik, Dharma merasa lebih fokus dan dapat memunculkan ide-ide segar untuk karya desain yang tengah digarapnya. Dharma memiliki golongan darah O, yang konon dikenal dengan sifat-sifatnya yang penyayang dan mudah bergaul. Dia adalah seseorang yang terbuka, mudah beradaptasi, dan selalu siap membantu teman-temannya. Meski begitu, Dharma tetap memiliki sikap yang tegas dan disiplin dalam menjalani segala hal, terutama dalam pendidikan dan karier masa depannya. Dengan segala potensi yang dimilikinya, Dharma Mudita bertekad untuk terus berkembang dan mengukir prestasi di dunia Desain Web. Ia berusaha untuk memanfaatkan setiap kesempatan untuk belajar dan memperdalam keterampilan, demi mencapai impian untuk menjadi seorang profesional di bidang yang digelutinya.</p>
+            </article>
+        </main>
+        <!-- buat area footer -->
+        <footer class="footer">
+            Ig: voltxdharma
+        </footer>
+
+        <!-- fungsi js -->
+        <script>
+            // fungsi untuk tombol home
+            function index()
+            {
+                //alihkan ke halaman home
+                location.href="index.html";
+            }
+            // fungsi ke halaman profil
+            function profil()
+            {                
+                // window.open("profil.html");
+                location.href="profil.html";
+            }
+            // fungsi ke halaman Pendidikan
+            function Pendidikan()
+            {                
+                // window.open("profil.html");
+                location.href="Pendidikan.html";
+            }
+        </script>
+    </body>
+</html>
